@@ -403,7 +403,7 @@ _bO.BorderColor3=Color3 .fromRGB(0,0,0)
 _bO.BorderSizePixel=0
 _bO.Size=UDim2 .new(1,0,0,30)
 _bO.Font=Enum.Font.Oswald
-_bO.Text="____/SALAAR V2\\___"
+_bO.Text="______--AAYAN||V3--______"
 _bO.TextColor3=Color3 .fromRGB(255,255,255)
 _bO.TextScaled=true
 _bO.TextSize=14
@@ -617,7 +617,7 @@ _cA.BorderSizePixel=0
 _cA.Position=UDim2 .new(0,150,0,25)
 _cA.Size=UDim2 .new(0,200,0,100)
 _cA.Font=Enum.Font.SourceSans
-_cA.Text=("Hello @".._c.Name.."!\nPress [B] to open/close gui.")
+_cA.Text=("yoooo #".._c.Name.."!\nPress [B] to open/close gui.")
 _cA.TextColor3=Color3 .fromRGB(255,255,255)
 _cA.TextSize=24
 _cA.TextWrapped=true
@@ -718,7 +718,7 @@ _cQ.Position=UDim2 .new(0,150,0,30)
 _cQ.Size=UDim2 .new(0,175,0,30)
 _cQ.Font=Enum.Font.Gotham
 _cQ.PlaceholderColor3=Color3 .fromRGB(200,200,200)
-_cQ.PlaceholderText="@target..."
+_cQ.PlaceholderText="player..."
 _cQ.Text=""
 _cQ.TextColor3=Color3 .fromRGB(255,255,255)
 _cQ.TextSize=14
@@ -846,7 +846,7 @@ _dP.BorderSizePixel=0
 _dP.Position=UDim2 .new(0,25,0,150)
 _dP.Size=UDim2 .new(0,350,0,150)
 _dP.Font=Enum.Font.SourceSans
-_dP.Text=("Made by: REBEL STAR SALAAR\n FATHEROF EGO EMPIR/\nUNSTOPPABLE & UNDEFEATABLE ð¥").._a
+_dP.Text=("AAYAN V3 ON TOP").._a
 _dP.TextColor3=Color3 .fromRGB(255,255,255)
 _dP.TextSize=24
 _dP.TextWrapped=true
@@ -1089,7 +1089,7 @@ end
 local function _fm(_fn)
   pcall(function()
     if table.find(_k,_fn.UserId)then
-      _bF("SALAAR MINI V1","You cant target this player: @".._fn.Name.." / ".._fn.DisplayName,5)
+      _bF("AAYAN MINI V3","You cant target this player: @".._fn.Name.." / ".._fn.DisplayName,5)
       _fn=nil
     end
   end)
@@ -1423,7 +1423,7 @@ end)
 _cm.FocusLost:Connect(function()
   command=_cm.Text
   _b:Chat(command)
-  _bF("SALAAR MINI V1",("Executed "..command),5)
+  _bF("AAYAN MINI V3",("Executed "..command),5)
   _cm.Text=""
 end)
 _cD.MouseButton1Click:Connect(function()
@@ -1443,7 +1443,7 @@ _cH.MouseButton1Click:Connect(function()
       _fW=50
     end
     _c.Character.Humanoid.JumpPower=tonumber(_fW)
-    _bF("SALAAR MINI V1","Jump power updated.",5)
+    _bF("AAYAN MINI V3","Jump power updated.",5)
   end)
 end)
 _cK.MouseButton1Click:Connect(function()
@@ -1453,7 +1453,7 @@ _cK.MouseButton1Click:Connect(function()
       _fX=50
     end
     _m=tonumber(_fX)
-    _bF("SALAAR MINI V1","Fly speed updated.",5)
+    _bF("AAYAN  MINI V3","Fly speed updated.",5)
   end)
 end)
 _cJ.MouseButton1Click:Connect(function()
@@ -1465,11 +1465,11 @@ _cJ.MouseButton1Click:Connect(function()
 end)
 _cI.MouseButton1Click:Connect(function()
   _o=_J(_c).Position
-  _bF("SALAAR MINI V1","Checkpoint saved.",5)
+  _bF("AAYAN MINI V3","Checkpoint saved.",5)
 end)
 _cF.MouseButton1Click:Connect(function()
   _o=nil
-  _bF("SALAAR MINI V1","Checkpoint cleared.",5)
+  _bF("AAYAN MINI V3","Checkpoint cleared.",5)
 end)
 local _fZ=true
 local _ga=true
@@ -1842,10 +1842,10 @@ _cX.MouseButton1Click:Connect(function()
           table.remove(_j,_gG)
         end
       end
-      _bF("SALAAR MINI V1",_l.." removed from whitelist.",5)
+      _bF("AAYAN MINI V3",_l.." removed from whitelist.",5)
     else
       table.insert(_j,_b[_l].UserId)
-      _bF("SALAAR MINI V1",_l.." added to whitelist.",5)
+      _bF("AAYAN MINI V3",_l.." added to whitelist.",5)
     end
   end
 end)
@@ -2008,14 +2008,14 @@ _dF.MouseButton1Click:Connect(function()
   if _dE.Ticket_Asset.ImageColor3==Color3 .fromRGB(255,0,0)then
     game:GetService("Lighting").ClockTime=14
   else
-    _bF("SALAAR MINI V1","Please turn off shaders.",5)
+    _bF("AAYAN MINI V3","Please turn off shaders.",5)
   end
 end)
 _dG.MouseButton1Click:Connect(function()
   if _dE.Ticket_Asset.ImageColor3==Color3 .fromRGB(255,0,0)then
     game:GetService("Lighting").ClockTime=19
   else
-    _bF("SALAAR MINI V1","Please turn off shaders.",5)
+    _bF("AAYAN MINI V3","Please turn off shaders.",5)
   end
 end)
 _dJ.MouseButton1Click:Connect(function()
@@ -2039,7 +2039,7 @@ end)
 _dM.MouseButton1Click:Connect(function()
   if not _q then
     _q=true
-    _bF("SALAAR MINI V1","Loading free emotes.\nCredits: Gi#7331")
+    _bF("AAYAN MINI V3","Loading free emotes.\nCredits: Gi#7331")
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/AllEmotes")))()
   end
 end)
@@ -2072,7 +2072,7 @@ _b.PlayerRemoving:Connect(function(_hj)
   pcall(function()
     if _hj.Name==_l then
       _fm(nil)
-      _bF("SALAAR MINI V1","Targeted player left/rejoined.",5)
+      _bF("AAYAN MINI V3","Targeted player left/rejoined.",5)
     end
   end)
 end)
@@ -2084,19 +2084,19 @@ _c.CharacterAdded:Connect(function(_hk)
   end
   if _ci.Ticket_Asset.ImageColor3==Color3 .fromRGB(0,255,0)then
     _z(_ci)
-    _bF("SALAAR MINI V1",("PotionDick was automatically disabled due to your character respawn"),5)
+    _bF("AAYAN MINI V3",("PotionDick was automatically disabled due to your character respawn"),5)
   end
   if _cc.Ticket_Asset.ImageColor3==Color3 .fromRGB(0,255,0)then
     _z(_cc)
-    _bF("SALAAR MINI V1",("PotionFling was automatically disabled due to your character respawn"),5)
+    _bF("AAYAN MINI V1",("PotionFling was automatically disabled due to your character respawn"),5)
   end
   if _cb.Ticket_Asset.ImageColor3==Color3 .fromRGB(0,255,0)then
     _z(_cb)
-    _bF("SALAAR MINI V1",("AntiRagdoll was automatically disabled due to your character respawn"),5)
+    _bF("AAYAN MINI V1",("AntiRagdoll was automatically disabled due to your character respawn"),5)
   end
   if _cd.Ticket_Asset.ImageColor3==Color3 .fromRGB(0,255,0)then
     _z(_cd)
-    _bF("SALAAR MINI V1",("SpamMines was automatically disabled due to your character respawn"),5)
+    _bF("AAYAN MINI V1",("SpamMines was automatically disabled due to your character respawn"),5)
   end
   if _cM.Ticket_Asset.ImageColor3==Color3 .fromRGB(0,255,0)then
     _z(_cM)
@@ -2104,7 +2104,7 @@ _c.CharacterAdded:Connect(function(_hk)
     _dV.Visible=false
     _gd:Disconnect()
     _ge:Disconnect()
-    _bF("SALAAR MINI V1","Fly was automatically disabled due to your character respawn",5)
+    _bF("AAYAN MINI V1","Fly was automatically disabled due to your character respawn",5)
   end
   _hk.Humanoid.Died:Connect(function()
     pcall(function()
@@ -2137,12 +2137,12 @@ _c.CharacterAdded:Connect(function(_hk)
     end
     if not(_hu==_hs)then
       _bJ:Destroy()
-      _bF("SALAAR MINI V1","An unexpected error occurred, re-joining...")
+      _bF("AAYAN MINI V1","An unexpected error occurred, re-joining...")
       game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId,game.JobId,_c)
     end
   else
     _bJ:Destroy()
-    _bF("SALAAR MINI V1","An unexpected error occurred, re-joining...")
+    _bF("AAYAN MINI V1","An unexpected error occurred, re-joining...")
     game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId,game.JobId,_c)
   end
   _hl:Destroy()
@@ -2180,12 +2180,12 @@ task.spawn(function()
       local _hH=_hE["created"]:sub(1,10)
       if(_c.Name~=_hF)or(_c.DisplayName~=_hG)or(_c.UserId~=_c.CharacterAppearanceId)then
         _bJ:Destroy()
-        _bF("SALAAR MINI V1","An unexpected error occurred, re-joining...")
+        _bF("AAYAN MINI V1","An unexpected error occurred, re-joining...")
         game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId,game.JobId,_c)
       end
       if(_hA~=_hH)and(_hB~=_hH)and(_hC~=_hH)then
         _bJ:Destroy()
-        _bF("SALAAR MINI V1","An unexpected error occurred, re-joining...")
+        _bF("AAYAN MINI V1","An unexpected error occurred, re-joining...")
         game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId,game.JobId,_c)
       end
     end)
